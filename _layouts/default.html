@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.scss' | relative_url }}">
+  <body>
+    {% include header.html %}
+    <main>
+      <article>{{ content }}</article>
+      {% include footer.html %}
+    </main>
+  </body>
+</html>
