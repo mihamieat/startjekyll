@@ -23,7 +23,7 @@ email: r.miham@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site is for testing deployement of a Jekyll project.
   It is meat to understand how to build and put online a very simple porfolio project.
-baseurl: "startjekyll" # the subpath of your site, e.g. /blog
+baseurl: "/startjekyll" # the subpath of your site, e.g. /blog
 url: "http://mihamieat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mihamieat
 github_username:  mihamieat
@@ -52,3 +52,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed # or nested, expanded, compact
